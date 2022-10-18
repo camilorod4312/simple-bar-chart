@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import BarChart from "./BarChart";
+import BarChart from "./Components/BarChart";
 import { Select, MenuItem, FormControl, InputLabel, Box } from "@mui/material";
-import NavBar from "./Navbar";
+import NavBar from "./Components/Navbar";
 
 function App() {
   const [charData, setChartData] = useState([]);
